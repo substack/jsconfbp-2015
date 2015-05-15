@@ -1,0 +1,9 @@
+{
+  "browser": {
+    "level": "level-browserify"
+  },
+  "scripts": {
+    "build": "browserify browser.js -o bundle.js",
+    "watch": "watchify browser.js -dv -o bundle.js"
+  }
+}
